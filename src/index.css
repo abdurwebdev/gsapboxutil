@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+#text
+{
+    width: 400px;
+    height: 120px;
+    position: absolute;
+    overflow: hidden;
+    bottom: 25%;
+    z-index: 10;
+    left: 15%;
+}
+#text h1
+{
+   position: absolute;
+   top: 120px;
+}
